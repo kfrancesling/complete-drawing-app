@@ -47,13 +47,14 @@ function mousePressed() {
 
 // saved function: 
 
-function keyTyped() {
-  if (key == 's') {
+/*function keyTyped() {
+ if (key == 's') {
     saveCanvas('photo', 'png');
   }
-}
+} 
+*/
 
-// clear function:
+//clear function:
     
 clear.addEventListener('click', () => {
 	paths.splice(0);
